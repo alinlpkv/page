@@ -4,7 +4,7 @@ tg.expand();
 //if (tg.initData == '') {
 //    $('body').empty();
 //}
-
+console.log(tg)
 let user_id = tg.initDataUnsafe.user?.id || 342297636;
 //let user_id = tg.initDataUnsafe.user?.id;
 fetchData(user_id);
